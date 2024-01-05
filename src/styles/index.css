@@ -1,0 +1,30 @@
+:root {
+
+}
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: gray;
+}
+#root{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-width: 90vw;
+  min-height: 90vh;
+  padding: 2rem;
+  
+}
+.customize{
+  background-color: lightblue;
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  padding: 2rem;
+}
+.cv{
+  background-color: lightsteelblue;
+  padding: 2rem;
+}
