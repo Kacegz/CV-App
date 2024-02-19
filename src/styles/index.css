@@ -28,10 +28,14 @@ body {
 #root{
   display: grid;
   grid-template-columns: 1fr 2fr;
-  min-width: 800px;
-  min-height: 600px;
   padding: 1rem;
   gap: 60px;
+}
+@media (max-width: 800px) {
+  #root {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
 }
 .customize{
   background-color: var(--secondary);
